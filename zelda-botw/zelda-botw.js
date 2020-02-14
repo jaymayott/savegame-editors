@@ -363,7 +363,7 @@ SavegameEditor={
 		return false
 	},
 	checkValidSavegame:function(){
-		return this._checkValidSavegameByConsole(false) || this._checkValidSavegameByConsole(false);
+		return this._checkValidSavegameByConsole(false) || this._checkValidSavegameByConsole(true);
 	},
 
 
